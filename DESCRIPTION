@@ -1,0 +1,9 @@
+Package: truncater
+Title: Provides Truncated Distribution Functions
+Version: 0.0.0.9000
+Authors@R: person("Alex", "Pax", email = "apax622@gmail.com", role = c("aut", "cre"))
+Description: Extends continuous probability distributions in R by providing truncated probability distribution functions.
+Depends: R (>= 3.5.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
