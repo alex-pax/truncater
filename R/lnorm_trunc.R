@@ -31,7 +31,7 @@ plnorm_trunc <- function(q, meanlog = 0, sdlog = 1, low = 0, upp = Inf, lower.ta
 
   if (sdlog < 0) {
     warning(paste0("sdlog: ", sdlog ,". sdlog must be >=0.  NaNs produced."))
-    return(rep(NaN, length(x)))
+    return(rep(NaN, length(q)))
   }
 
 
@@ -63,7 +63,7 @@ qlnorm_trunc <- function(p, meanlog = 0, sdlog = 1, low = 0, upp = Inf, lower.ta
 
   if (sdlog < 0) {
     warning(paste0("sdlog: ", sdlog ,". sdlog must be >=0.  NaNs produced."))
-    return(rep(NaN, length(x)))
+    return(rep(NaN, length(p)))
   }
 
   if(log.p) {
